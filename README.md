@@ -20,7 +20,7 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install compression
+$ npm install express-compression
 ```
 
 ## API
@@ -28,7 +28,7 @@ $ npm install compression
 <!-- eslint-disable no-unused-vars -->
 
 ```js
-var compression = require('compression')
+var compression = require('express-compression')
 ```
 
 ### compression([options])
@@ -148,7 +148,7 @@ The default `filter` function. This is used to construct a custom filter
 function that is an extension of the default function.
 
 ```js
-var compression = require('compression')
+var compression = require('express-compression')
 var express = require('express')
 
 var app = express()
@@ -176,7 +176,7 @@ The default `filter` function. This is used to construct a custom filter
 function that is an extension of the default function.
 
 ```js
-var compression = require('compression')
+var compression = require('express-compression')
 var express = require('express')
 
 var app = express()
@@ -191,7 +191,7 @@ When using this module with express or connect, simply `app.use` the module as
 high as you like. Requests that pass through the middleware will be compressed.
 
 ```js
-var compression = require('compression')
+var compression = require('express-compression')
 var express = require('express')
 
 var app = express()
@@ -213,7 +213,7 @@ You can achieve this by calling `res.flush()` when you need the data written to
 actually make it to the client.
 
 ```js
-var compression = require('compression')
+var compression = require('express-compression')
 var express = require('express')
 
 var app = express()

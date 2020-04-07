@@ -1,13 +1,14 @@
 {
-  "name": "compression",
-  "description": "Node.js compression middleware",
-  "version": "1.7.4",
+  "name": "express-compression",
+  "description": "Express Node.js compression middleware",
+  "version": "1.0.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "Aditya Patadia <aditya@patadia.org>"
   ],
   "license": "MIT",
-  "repository": "expressjs/compression",
+  "repository": "gumlet/express-compression",
   "dependencies": {
     "accepts": "~1.3.5",
     "bytes": "3.0.0",
@@ -36,7 +37,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 10.6.0"
   },
   "scripts": {
     "lint": "eslint --plugin markdown --ext js,md .",

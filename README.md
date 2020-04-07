@@ -244,11 +244,11 @@ app.get('/events', function (req, res) {
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/compression.svg
-[npm-url]: https://npmjs.org/package/compression
-[travis-image]: https://img.shields.io/travis/expressjs/compression/master.svg
-[travis-url]: https://travis-ci.org/expressjs/compression
-[coveralls-image]: https://img.shields.io/coveralls/expressjs/compression/master.svg
-[coveralls-url]: https://coveralls.io/r/expressjs/compression?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/compression.svg
-[downloads-url]: https://npmjs.org/package/compression
+[npm-image]: https://img.shields.io/npm/v/express-compression.svg
+[npm-url]: https://npmjs.org/package/express-compression
+[travis-image]: https://img.shields.io/travis/gumlet/express-compression/master.svg
+[travis-url]: https://travis-ci.org/github/gumlet/express-compression
+[coveralls-image]: https://img.shields.io/coveralls/gumlet/express-compression/master.svg
+[coveralls-url]: https://coveralls.io/github/gumlet/express-compression
+[downloads-image]: https://img.shields.io/npm/dm/express-compression.svg
+[downloads-url]: https://npmjs.org/package/express-compression
